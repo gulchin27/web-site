@@ -1,8 +1,10 @@
-function selamla(isim) { 
-    let mesaj = `Merhaba, ${isim}!`;
-    console.log(mesaj);
-    consol.log(mesaj);
-}
-//consol.log(isim);
-selamla("Can");
-//consol.log(mesaj);
+var payment;
+(function (payment) {
+    payment["paypaL"] = "PAYPAL";
+    payment["PASHAPAY"] = "PASHAPAY";
+})(payment || (payment = {}));
+var Country;
+(function (Country) {
+    Country["country1"] = "Dominican Republic";
+    Country["country2"] = "Egypt";
+})(Country || (Country = {}));
